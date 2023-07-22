@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   ar-catch:
-    specifier: ^0.0.13
-    version: 0.0.13(typescript@5.1.6)
+    specifier: ^0.0.14
+    version: 0.0.14(typescript@5.1.6)
 
 devDependencies:
   jest:
@@ -947,8 +947,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /ar-catch@0.0.13(typescript@5.1.6):
-    resolution: {integrity: sha512-UqSGbk6YzmOdIwUA7LrA5DSEdiqwMcFp0ELNC348hiY9ebNSIsEoUkSQJLZ6IdAeRvZDvVRx7sSakojS86FaxA==}
+  /ar-catch@0.0.14(typescript@5.1.6):
+    resolution: {integrity: sha512-0UqMEy4w/Wb8YEXnGfouzoyQ7P4TO4ztK0Mdzmh4RmmORz5ve5mVVqtP89u/yptK7bxHvLPAfVnIxoh3ewYmcA==}
     peerDependencies:
       typescript: ^5.0.2
     dependencies:
