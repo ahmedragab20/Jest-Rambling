@@ -1,3 +1,14 @@
-const sayThis = (str) => str;
+import getArCatch from "ar-catch";
+import "./todo"
+const { $catch, useCache } = getArCatch;
+const useCatch = $catch({
+  alias: "$useCatch",
+});
 
-module.exports = sayThis;
+const btn = document.querySelector("#btn");
+const checkThis = () => {
+  const response = useCatch("https://jsonplaceholder.typicode.com/todos/1");
+  console.log(response);
+};
+
+btn.addEventListener("click", checkThis);

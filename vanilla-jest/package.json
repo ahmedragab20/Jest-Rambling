@@ -7,10 +7,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --watchAll"
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.6.1",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "ar-catch": "^0.0.13"
   }
 }
