@@ -6,16 +6,16 @@ settings:
 
 dependencies:
   ar-catch:
-    specifier: ^0.0.14
-    version: 0.0.14(typescript@5.1.6)
+    specifier: ^0.0.15
+    version: 0.0.15(typescript@5.1.6)
 
 devDependencies:
   jest:
     specifier: ^29.6.1
     version: 29.6.1
   vite:
-    specifier: ^4.4.5
-    version: 4.4.5
+    specifier: ^4.4.6
+    version: 4.4.6
 
 packages:
 
@@ -947,8 +947,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /ar-catch@0.0.14(typescript@5.1.6):
-    resolution: {integrity: sha512-0UqMEy4w/Wb8YEXnGfouzoyQ7P4TO4ztK0Mdzmh4RmmORz5ve5mVVqtP89u/yptK7bxHvLPAfVnIxoh3ewYmcA==}
+  /ar-catch@0.0.15(typescript@5.1.6):
+    resolution: {integrity: sha512-Ns9g43SORyg+m4hjrqV9Bvq/NwiGK3Ggef1quwpptakK/4IGvx/3JWzjSfdPjWE4GzSq760YOxciwdsgZl2Mpw==}
     peerDependencies:
       typescript: ^5.0.2
     dependencies:
@@ -2420,8 +2420,8 @@ packages:
       convert-source-map: 1.9.0
     dev: true
 
-  /vite@4.4.5:
-    resolution: {integrity: sha512-4m5kEtAWHYr0O1Fu7rZp64CfO1PsRGZlD3TAB32UmQlpd7qg15VF7ROqGN5CyqN7HFuwr7ICNM2+fDWRqFEKaA==}
+  /vite@4.4.6:
+    resolution: {integrity: sha512-EY6Mm8vJ++S3D4tNAckaZfw3JwG3wa794Vt70M6cNJ6NxT87yhq7EC8Rcap3ahyHdo8AhCmV9PTk+vG1HiYn1A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
