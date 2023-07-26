@@ -4,7 +4,14 @@ import "./todo";
 const btn = document.querySelector("#btn");
 const checkThis = async () => {
   const response = await useCatch.$catch(
-    "https://jsonplaceholder.typicode.com/todos/21"
+    "https://jsonplaceholder.typicode.com/todos/21",
+    {
+      customOptions: {
+        cache: "PER-SESSION",
+        resType: "json",
+        pureResponse: true,
+      },
+    }
   );
   console.log(response);
 };
