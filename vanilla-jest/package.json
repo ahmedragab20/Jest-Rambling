@@ -14,6 +14,6 @@
     "vite": "^4.4.6"
   },
   "dependencies": {
-    "ar-catch": "^0.0.16"
+    "ar-catch": "^0.0.18"
   }
 }
